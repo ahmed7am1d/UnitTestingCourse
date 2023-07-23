@@ -6,12 +6,12 @@ using RunGroopWebApp.Interfaces;
 using RunGroopWebApp.Models;
 
 namespace RunGroopWebApp.Tests.Controller;
-public class ClubControllerTest
+public class ClubControllerTests
 {
     private IClubRepository _clubRepository;
     private IPhotoService _photoService;
     private ClubController _clubController;
-    public ClubControllerTest()
+    public ClubControllerTests()
     {
         //DI
         _clubRepository = A.Fake<IClubRepository>();
